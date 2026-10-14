@@ -1,0 +1,26 @@
+# Benchmark build outputs and results (run.ps1)
+/out/
+
+# Go
+*.exe
+*.test
+*.prof
+
+# C# / .NET
+csharp/bin/
+csharp/obj/
+*.user
+*.suo
+
+# Rust (Cargo.lock is kept: this is a binary crate)
+rust/target/
+
+# Editors and IDEs
+.vs/
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
