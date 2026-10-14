@@ -9,10 +9,11 @@
 # C# / .NET
 csharp/bin/
 csharp/obj/
+BenchmarkDotNet.Artifacts/
 *.user
 *.suo
 
-# Rust (Cargo.lock is kept: this is a binary crate)
+# Rust (Cargo.lock is kept so benchmark dependency versions are pinned)
 rust/target/
 
 # Editors and IDEs

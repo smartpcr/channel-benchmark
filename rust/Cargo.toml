@@ -2,5 +2,15 @@
 name = "channel-bench"
 version = "0.1.0"
 edition = "2021"
+
 [dependencies]
-tokio = { version = "1", features = ["rt-multi-thread", "macros", "sync"] }
+async-channel = "2"
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
+
+[dev-dependencies]
+cpu-time = "1"
+criterion = "0.5"
+
+[[bench]]
+name = "channel"
+harness = false
